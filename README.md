@@ -6,7 +6,7 @@ The class contains a set of procedures and functions for testing VBA code.
 
 Example usage:
 
-```visual basic for applications
+```vbnet
 Public Sub TestCalculate()
   Dim Assert As New Assert
   Assert.NameMethod = "TestCalculate"
