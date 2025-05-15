@@ -1,26 +1,9 @@
 # My VBA scripts
 
-## Assert.cls
+## AMR
 
-The class contains a set of procedures and functions for testing VBA code.
+Scripts for working with data from uploads (books) of arithmetic mean balances (SAE).
 
-Example usage:
+## VBACyriller
 
-```vbnet
-Public Sub TestCalculate()
-  Dim Assert As New Assert
-  Assert.NameMethod = "TestCalculate"
-  Call Assert.Equal_Long(100, Calculate(10, 10))
-  Call Assert.Equal_Long(101, Calculate(10, 10))
-  Call Assert.ResultAssert
-End Sub
-
-Public Function Calculate(value1 As Long, value2 As Long) As Long
-  Calculate = value1 * value2
-End Function
-```
-
-## ModAMR.bas
-
-A module for working with the data of uploads (books) of arithmetic mean balances (CFT).
-The main procedure for launching is BreakBookIntoParts
+A set of classes and modules for working with declensions of cases
